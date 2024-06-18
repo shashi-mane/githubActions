@@ -1,4 +1,4 @@
-name: api tests
+name: get all product test
 
 on:
   - push
