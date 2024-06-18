@@ -1,4 +1,4 @@
-name: api tests
+name: single product test
 
 on:
   - push
