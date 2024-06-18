@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_summary",{distinct_id:"a18b5527-e36c-4265-b358-c0a887eb7a50",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>Karate Summary Report</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">11</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
+  </div>
+  <div id="nav-type">
+    <div>Features</div>
+  </div>
+  <div id="nav-date">
+    <div>2024-05-15 11:42:59 PM</div>
+  </div>
+</div>
+
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <a href="karate-timeline.html">Timeline</a>
+        </div>
+        <table class="features-table table table-sm">
+          <thead>
+            <tr>
+              <th>Feature</th>
+              <th>Title</th>
+              <th class="num">Passed</th>
+              <th class="num">Failed</th>
+              <th class="num">Scenarios</th>
+              <th class="num">Time (ms)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.authentication.registerApiClient.html">com/api/automation/authentication/registerApiClient.feature</a>
+              </td>
+              <td title="Use POST /api-clients">To register new API client</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">1837</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.cart.addItemToCart.html">com/api/automation/cart/addItemToCart.feature</a>
+              </td>
+              <td title="Use POST /carts/:cartId/items to add item to cart in application">To add item to cart in application</td>
+              <td class="num">0</td>
+              <td class="num">4</td>
+              <td class="num">4</td>
+              <td class="num">7049</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.cart.createNewCart.html">com/api/automation/cart/createNewCart.feature</a>
+              </td>
+              <td title="Use POST /carts to create a new cart in the application">To create a new cart in application</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1250</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.cart.deleteItem.html">com/api/automation/cart/deleteItem.feature</a>
+              </td>
+              <td title="Use DELETE /carts/:cartId/items/:itemId">To delete item to cart in application</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">854</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.cart.getCart.html">com/api/automation/cart/getCart.feature</a>
+              </td>
+              <td title="use GET /carts/:cartId to get the cart">To test the carts endpoint of grocery api</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">854</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.cart.getCartItems.html">com/api/automation/cart/getCartItems.feature</a>
+              </td>
+              <td title="use GET /carts/:cartId/items to get the cart">To test the carts endpoint of grocery api</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">855</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.cart.modifyItem.html">com/api/automation/cart/modifyItem.feature</a>
+              </td>
+              <td title="Use PATCH /carts/:cartId/items/:itemId to modify item to cart in application">To modify item to cart in application</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">835</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.cart.replaceItem.html">com/api/automation/cart/replaceItem.feature</a>
+              </td>
+              <td title="Use PUT /carts/:cartId/items/:itemId">To replace item to cart in application</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">768</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.orders.createNewOrder.html">com/api/automation/orders/createNewOrder.feature</a>
+              </td>
+              <td title="Use POST /orders">To create new order in application</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">764</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.orders.deleteOrder.html">com/api/automation/orders/deleteOrder.feature</a>
+              </td>
+              <td title="use DELETE /orders/:orderId">To delete an order created by the API client.</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">739</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.orders.getAllOrders.html">com/api/automation/orders/getAllOrders.feature</a>
+              </td>
+              <td title="use GET /orders">To test all orders created by the API client.</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">724</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.orders.getSingleOrder.html">com/api/automation/orders/getSingleOrder.feature</a>
+              </td>
+              <td title="use GET /orders/:orderId">To test the single order created by the API client.</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">683</td>
+            </tr>
+            <tr class="failed">
+              <td>
+                <a href="com.api.automation.orders.updateOrder.html">com/api/automation/orders/updateOrder.feature</a>
+              </td>
+              <td title="use PATCH /orders/:orderId">To update an order created by the API client.</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">935</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.products.getAllProducts.html">com/api/automation/products/getAllProducts.feature</a>
+              </td>
+              <td title="This get the list of products from inventory">To test the products endpoint of grocery api</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">916</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.products.getSingleProduct.html">com/api/automation/products/getSingleProduct.feature</a>
+              </td>
+              <td title="This get the single product from inventory">To test the products endpoint of grocery api</td>
+              <td class="num">3</td>
+              <td class="num">0</td>
+              <td class="num">3</td>
+              <td class="num">2630</td>
+            </tr>
+            <tr class="passed">
+              <td>
+                <a href="com.api.automation.status.status.html">com/api/automation/status/status.feature</a>
+              </td>
+              <td title="This is to test the status of grocery api- https://simple-grocery-store-api.glitch.me">To test the status endpoint of grocery api</td>
+              <td class="num">1</td>
+              <td class="num">0</td>
+              <td class="num">1</td>
+              <td class="num">1311</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
+
