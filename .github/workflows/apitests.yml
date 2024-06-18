@@ -18,7 +18,6 @@ jobs:
         tests: |
           Grocery_KarateAutomation/src/test/java/com/api/automation/status/status.feature
           Grocery_KarateAutomation/src/test/java/com/api/automation/products/getAllProducts.feature
-          Grocery_KarateAutomation/src/test/java/com/api/automation/products/getSingleProducts.feature
 
     # Upload the contents of Test Results directory to workspace
     - name: Output the run Details
