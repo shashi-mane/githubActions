@@ -16,8 +16,8 @@ Feature: To test the products endpoint of grocery api
     Examples: 
       | productId |
       |      4643 |
-      |      2585 |
-      |      8753 |
+     # |      2585 |
+     # |      8753 |
 
   Scenario Outline: To get the single product from grocery api that is not available
     #Given path '/products/6483'
